@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace DesignPatterns
+namespace DesignPatterns.OOPs.Encapsulation
 {
     public class BankAccount
     {
@@ -11,7 +11,7 @@ namespace DesignPatterns
         {
             if(amount < 0)
             {
-                throw new ArgumentException("Iitial balance cannot be negative");
+                throw new ArgumentException("Initial balance cannot be negative");
             }
             this.balance = amount;
         }

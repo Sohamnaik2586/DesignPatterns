@@ -7,4 +7,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="OOPs\Coupling\" />
+    <Folder Include="OOPs\Inheritance\" />
+  </ItemGroup>
+
 </Project>
